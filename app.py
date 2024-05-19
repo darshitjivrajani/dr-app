@@ -50,4 +50,4 @@ dr_app = gr.Interface(
 
 # Run the Gradio app
 if __name__ == "__main__":
-    dr_app.launch()
+    dr_app.launch(share=True)
